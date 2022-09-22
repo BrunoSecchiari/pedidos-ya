@@ -1,5 +1,4 @@
 import MealItemForm from "./MealItemForm";
-
 import styles from "./MealItem.module.css";
 
 const MealItem = (props) => {

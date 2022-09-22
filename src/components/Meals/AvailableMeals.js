@@ -1,6 +1,5 @@
 import Card from "../UI/Card";
 import MealItem from "./MealItem/MealItem";
-
 import styles from "./AvailableMeals.module.css";
 
 const meals = [
