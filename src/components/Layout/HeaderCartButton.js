@@ -1,8 +1,8 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from 'react';
 
-import CartIcon from "../Cart/CartIcon";
-import CartContext from "../../store/cart-content";
-import styles from "./HeaderCartButton.module.css";
+import CartIcon from '../Cart/CartIcon';
+import CartContext from '../../store/cart-context';
+import styles from './HeaderCartButton.module.css';
 
 const HeaderCartButton = (props) => {
   const [buttonIsHighlighted, setButtonIsHighlighted] = useState(false);
@@ -15,7 +15,7 @@ const HeaderCartButton = (props) => {
   }, 0);
 
   const buttonStyle = `${styles.button} ${
-    buttonIsHighlighted ? styles.bump : ""
+    buttonIsHighlighted ? styles.bump : ''
   }`;
 
   useEffect(() => {
